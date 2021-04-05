@@ -1,6 +1,6 @@
-# Python Programming
+# Python 101 - Introduction To Programming
 
-These are the exercise labs for your CodingNomads Python Programming course.
+These are the exercise labs for the first module of your CodingNomads Python Programming course.
 
 You should find this document after downloading the repository. This folder contains **your own copy** of all the labs that you'll work with and learn from. Complete the exercises locally on your computer in your text editor or IDE.
 
