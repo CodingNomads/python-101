@@ -22,10 +22,3 @@
 # * * *
 #
 # HINT: Think of nested for loops!
-
-stars = 5
-
-for n in range(stars):
-    for m in range(n+1):
-        print("*", end=" ")
-    print()

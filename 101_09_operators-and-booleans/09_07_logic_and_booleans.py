@@ -10,5 +10,3 @@
 
 wrong = False
 right = True
-
-print(not (wrong and wrong) or right)
