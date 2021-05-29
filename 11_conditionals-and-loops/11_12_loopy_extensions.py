@@ -7,14 +7,3 @@
 # for example flags and conditional statements.
 
 filename = "operators.pdf"
-
-flag = False
-extension = ""
-for c in filename:
-    if flag:
-        extension += c
-    if c == ".":
-        flag = True
-
-if extension == "pdf":
-    print(True)

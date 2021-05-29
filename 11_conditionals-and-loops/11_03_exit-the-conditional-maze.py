@@ -33,7 +33,6 @@
 flag = True
 
 if flag == True:
-    flag = False  # TODO: remove this line
     print("left")
 
 if flag == False:
@@ -43,14 +42,12 @@ if flag == True:
     print("left")
 
 if flag == False:
-    flag = True  # TODO: remove this line
     print("straight ahead")
 
 if flag == True:
     print("straight ahead")
 
 if flag == True:
-    flag = False  # TODO: remove this line
     print("straight ahead")
 
 if flag == True:
@@ -60,15 +57,12 @@ if flag == True:
     print("left")
 
 if flag == False:
-    flag = True  # TODO: remove this line
     print("right")
 
 if flag == True:
-    flag = False  # TODO: remove this line
     print("straight ahead")
 
 if flag == False:
-    flag = True  # TODO: remove this line
     print("straight ahead")
 
 if flag == False:
@@ -78,7 +72,6 @@ if flag == True:
     print("right")
 
 if flag == True:
-    flag = False  # TODO: remove this line
     print("straight ahead")
 
 if flag == True:
