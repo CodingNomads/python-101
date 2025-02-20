@@ -23,3 +23,47 @@
 # Display a winning message and the full word if they win
 
 # Display a losing message and quit the game if they don't make it
+
+word_to_guess = "apple"
+display_word = "_____"
+letters_guessed = ""
+guesses_left = 6
+
+print("Welcome to Hangman!")
+print("Guess a letter at a time to guess a word.")
+
+while display_word != word_to_guess and guesses_left > 0:
+
+    print(f"You have {guesses_left} tries remaining.")
+    print(f"You've already tried: {letters_guessed}")
+    print(f"The word is: {display_word}")
+    letter = ""
+    while True:
+        letter = input("Guess a single letter: ").lower()
+        if len(letter) != 1:
+            print(f"Your guess, '{letter}', is too long.")
+            continue
+        if letter in letters_guessed:
+            print("You already guessed that letter.")
+            continue
+        break
+
+    letters_guessed += letter
+    display_word = ""
+    for ch in word_to_guess:
+        if ch in letters_guessed:
+            display_word += ch
+        else:
+            display_word += "_"
+
+    if letter in word_to_guess:
+        print("Good guess!")
+    else:
+        print("Sorry, that'll cost you.")
+        guesses_left -= 1
+
+
+if guesses_left == 0:
+    print(f"You lost! The word was '{word_to_guess}'.")
+else:
+    print(f"You won! You had {guesses_left} guesses remaining")

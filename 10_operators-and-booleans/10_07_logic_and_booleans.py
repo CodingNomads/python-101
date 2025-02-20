@@ -3,10 +3,14 @@
 # to express the following sentence:
 #
 #   do two wrongs make a right?
-# 
+#
 # Note that the truth value of the statement doesn't matter,
 # but try to use all three logical operators in one line of code
 # to get another boolean value as your result :)
 
 wrong = False
 right = True
+
+print(wrong and right)
+print(not wrong)
+print(wrong or right)

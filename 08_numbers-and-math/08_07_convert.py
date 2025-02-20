@@ -6,3 +6,12 @@
 # 4) Use two variables to perform a multiplication.
 #
 # What information is lost during which conversions?
+
+i = 10
+f = float(i)
+
+i2 = int(f)
+
+d = 10 / 2.4
+
+prod = f * i2
