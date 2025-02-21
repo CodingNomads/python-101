@@ -3,6 +3,3 @@
 # Declared like this, it's easy to mix which is which.
 
 dreams, profession = "flying", "programming"
-
-dreams = "flying"
-profession = "programming"
