@@ -18,7 +18,7 @@ CodingNomads appreciates Pull Requests. If you **find a typo**, or a **mistake i
 
 ![CodingNomads Logo](https://codingnomads.co/wp-content/uploads/2018/08/CN_Logo_Retina.png)
 
-If you don't yet know what that means, no worries! You can come back later,
+If you don't yet know what that means, no worries! You can come back later
 or study up now using the links below:
 
 - [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/)
